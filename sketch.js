@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  	        <script src="http://cdn.jsdelivr.net/p5.js/0.3.5/p5.min.js"></script>
-        <script src="sketch.js"></script>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
-</html>
+function setup() {
+  createCanvas(640, 480);
+  background(128, 0, 64);
+  noFill();
+
+  stroke(255, 0, 0);
+
+  var x;
+
+  x = 100;
+  ellipse(x, 100, 50, 50);
+
+  x = 250;
+  ellipse(x, 100, 50, 50);
+
+  x = 300;
+  ellipse(x, 100, 50, 50);
+}
